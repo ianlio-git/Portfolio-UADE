@@ -1,4 +1,4 @@
-<!-- index.html -->
+<!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-    <title>Ian's Portfolio</title>
+    <title>Contact Me - Ian Lionetti</title>
   </head>
   <body>
     <!-- Include Header manually by copying the content -->
@@ -27,30 +27,35 @@
     </header>
 
     <main>
-      <section class="about section" id="about">
-        <h2 class="section-title">About Me:</h2>
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/perfil.png" alt="" />
-          </div>
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
 
-          <div>
-            <h2 class="about__subtitle">Ian Agustin Lionetti</h2>
-            <span class="about__profession">Web developer</span>
-            <p class="about__text">
-              I'm Ian, a web developer with experience in HTML, CSS, JavaScript, and React.
-              I love solving technical problems and learning new technologies.
-            </p>
-            <div class="about__social">
-              <a href="https://www.linkedin.com/in/ianlio/" class="about__social-icon" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-              <a href="https://github.com/ianlio-git/Lionetti_1177995_13-08-2024_IntroaHTML" class="about__social-icon" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-              <a href="https://wa.me/+541165239624" target="_blank" class="about__social-icon" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <h3 class="contact__subtitle">MESSAGE</h3>
+            <div class="contact__inputs">
+              <input type="text" placeholder="Name" class="contact__input" required />
+              <input type="email" placeholder="Email" class="contact__input" required />
             </div>
-          </div>
-          <div>
-            <a href="/assets/pdf/CV - Ian Agustin Lionetti.pdf" download>
-              <button class="about__button">Resume</button>
-            </a>
+            <textarea
+              placeholder="Write your message here."
+              name="message"
+              cols="0"
+              rows="10"
+              class="contact__input"
+              required
+            ></textarea>
+
+            <input type="submit" value="Enviar" class="contact__button" />
+          </form>
+
+          <div class="contact__info">
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <span class="contact__text">ianlionetti17@gmail.com</span>
+
+            <h3 class="contact__subtitle">PHONE NUMBER</h3>
+            <span class="contact__text">+54 11 5623-9624</span>
           </div>
         </div>
       </section>

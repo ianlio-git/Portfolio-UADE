@@ -1,0 +1,155 @@
+<!-- portfolio.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <title>Ian's Portfolio</title>
+  </head>
+  <body>
+    <!-- Include Header manually by copying the content -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="index.html" class="nav__logo"><strong>Hello, I'm Ian. Welcome to my portfolio!</strong></a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link"><i class="bi bi-person-circle"></i> About</a></li>
+            <li class="nav__item"><a href="skills.html" class="nav__link"><i class="bi bi-person-fill-gear"></i> Skills</a></li>
+            <li class="nav__item"><a href="portfolio.html" class="nav__link"><i class="bi bi-rocket-takeoff-fill"></i> Projects</a></li>
+            <li class="nav__item"><a href="contact.html" class="nav__link"><i class="bi bi-envelope-plus-fill"></i> Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--===== PORTFOLIO =====-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="portfolio__container bd-grid">
+          <div class="portfolio__img">
+            <img src="assets/img/work1.jpeg" alt="Lost Galaxy" />
+            <div class="portfolio__link">
+              <h3 class="portfolio__title">Lost Galaxy</h3>
+              <p class="portfolio__text">
+                A Java game with object-oriented programming and MVC
+                architecture.
+              </p>
+              <div class="portfolio__buttons">
+                <a
+                  href="https://github.com/ianlio-git/LostGalaxy.git"
+                  class="portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+                <a
+                  href="https://mywebapp.com"
+                  class="portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-browser-chrome"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="assets/img/logosp.jpeg" alt="Split-it App" />
+            <div class="portfolio__link">
+              <h3 class="portfolio__title">Servicios profecionales</h3>
+              <p class="portfolio__text">
+                Servicios Profesionales offers professional web design services tailored to meet the unique needs of businesses.
+              </p>
+              <div class="portfolio__buttons">
+                <a
+                  href="https://github.com/ianlio-git/TP_disenio_web.git"
+                  class="portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+                <a
+                  href="https://ianlio-git.github.io/TP_disenio_web/"
+                  class="portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-browser-chrome"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="assets/img/LOGO-removebg-preview.png" alt="Portfolio React" />
+            <div class="portfolio__link">
+              <h3 class="portfolio__title">Instituto Eureka</h3>
+              <p class="portfolio__text">
+                Instituto Eureka offers personalized academic support for students aged 18-25, providing tailored courses, tutoring, and study resources.
+              </p>
+              <div class="portfolio__buttons">
+                <a
+                  href="https://github.com/ianlio-git/eureka.git"
+                  class="portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+                <a
+                  href="https://insteureka.netlify.app/"
+                  class="portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-browser-chrome"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Include Footer manually by copying the content -->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__data">
+          <h2 class="footer__title">Ian Lionetti</h2>
+          <p class="footer__text">I'm a Web Developer and a Computer Science student at UADE University</p>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">EXPLORE</h2>
+          <ul>
+            <li><a href="index.html" class="footer__link">About Me</a></li>
+            <li><a href="skills.html" class="footer__link">Skills</a></li>
+            <li><a href="portfolio.html" class="footer__link">My Projects</a></li>
+            <li><a href="contact.html" class="footer__link">Contact Me</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">FOLLOW ME ON</h2>
+          <a href="https://www.linkedin.com/in/ianlio/" class="about__social-icon" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.instagram.com/ianlionetti/" class="footer__social" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.threads.net/@ianlionetti?xmt=AQGz-exgIlimVrArps0ut43-gS3-pzRAVNwz7qyA5c-AHBI" class="footer__social" target="_blank" rel="noopener noreferrer"><i class="bi bi-threads"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <p>© 2024 Ian Lionetti. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
